@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="leadform" 
+      action="https://formsubmit.co/miqueiasdouglas66@gmail.com" 
+      method="POST" 
+      aria-label="Captação de leads">
+
+  <label class="sr-only" for="lead-email">Seu e-mail</label>
+  <input id="lead-email" 
+         name="email" 
+         type="email" 
+         placeholder="Digite seu melhor e-mail" 
+         required>
+  
+  <!-- Desativa o captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirecionamento após envio (opcional e recomendado) -->
+  <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+  <!-- Nome do formulário (opcional, ajuda no painel do formsubmit) -->
+  <input type="hidden" name="_subject" value="Novo lead do site Bianca Designer">
+
+  
+</form>
+    
+</body>
+</html>
